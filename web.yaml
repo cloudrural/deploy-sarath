@@ -1,0 +1,25 @@
+---
+- hosts: web
+  become: true
+  tasks:
+    - name: Installing the nginx webserver
+      apt:
+       name: nginx
+       state: present
+       update_cache: yes
+
+    - name: Start the webserver
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Copy the webserver
+      copy:
+        src: "./index.html"
+        dest: "/var/www/html/"
+
+    - name: reStart the webserver
+      service:
+        name: nginx
+        state: restarted
