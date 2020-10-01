@@ -1,0 +1,9 @@
+# appserver vars
+TOMCAT_HOME_DIR: "{{ APP_HOME_DIR }}/tomcat"
+TOMCAT_URL: "https://downloads.apache.org/tomcat/tomcat-9/v9.0.38/bin/apache-tomcat-9.0.38.tar.gz"
+TOMCAT_ZIP_FILE: "apache-tomcat-9.0.38.tar.gz"
+db_user: root
+db_port: 3306
+db_password: "root"
+db_host: localhost
+db_name: sarath-db
