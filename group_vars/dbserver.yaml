@@ -4,5 +4,5 @@ DB_ROOT_PASS: root
 CREATE_DB_SERVER: true
 MYSQL_DB_NAME: "sarath-db"
 MYSQL_DB_USER: "sarath"
-MYSQL_DB_PASS: "saratyh10"
-DB_HOME: /home/ubuntu
+MYSQL_DB_PASS: "sarath10"
+DB_HOME: {{ APP_HOME_DIR }}

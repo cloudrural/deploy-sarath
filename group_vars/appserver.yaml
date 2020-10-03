@@ -5,5 +5,5 @@ TOMCAT_ZIP_FILE: "apache-tomcat-9.0.38.tar.gz"
 db_user: root
 db_port: 3306
 db_password: "root"
-db_host: localhost
-db_name: sarath-db
+db_host: "localhost"
+db_name: "sarath-db"
