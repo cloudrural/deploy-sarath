@@ -1,5 +1,6 @@
 ---
  - hosts: app
    roles:
-     - java
+## only uncomment if u really needed.
+#     - java
      - appserver
