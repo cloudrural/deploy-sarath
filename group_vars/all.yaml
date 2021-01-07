@@ -1,9 +1,10 @@
 ---
 # webservers_vars
-package_manager: apt
+package_manager: yum
 web_server: nginx
 web_pages: index.html
 doc_root: /var/www/html
 web_pro: "infotern"
 web_port: 22
+web_app_port: 7001
 server_block: /etc/nginx/sites-available/tomcat.conf
